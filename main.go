@@ -1,14 +1,15 @@
 package main
 
 import (
-	"fmt"
 	"app/funcs/functions"
+	"fmt"
 )
 
 func main() {
 	var son int
 	fmt.Scanln(&son)
-	str:=functions.IntToString(son)
+	str := functions.IntToString(son)
+	functions.LastNumber(functions.Text(son))
 	functions.EvenDigitNum(str)
 	functions.RmStrings("34567cvbn")
 }
