@@ -8,5 +8,6 @@ import (
 func main() {
 	var son int
 	fmt.Scanln(&son)
-	functions.IntToString(son)
+	str:=functions.IntToString(son)
+	functions.EvenDigitNum(str)
 }
