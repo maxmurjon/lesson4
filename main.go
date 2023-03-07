@@ -8,5 +8,4 @@ import (
 func main() {
 	var son int
 	fmt.Scanln(&son)
-	functions.IntToString(son)
 }
