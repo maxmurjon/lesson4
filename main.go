@@ -11,4 +11,5 @@ func main() {
 	str := functions.IntToString(son)
 	functions.LastNumber(functions.Text(son))
 	functions.EvenDigitNum(str)
+	functions.RmStrings("34567cvbn")
 }
