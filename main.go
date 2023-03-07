@@ -10,4 +10,5 @@ func main() {
 	fmt.Scanln(&son)
 	str:=functions.IntToString(son)
 	functions.EvenDigitNum(str)
+	functions.RmStrings("34567cvbn")
 }
