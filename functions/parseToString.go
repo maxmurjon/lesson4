@@ -1,4 +1,4 @@
-package parsetostring
+package functions
 
 import "strconv"
 
