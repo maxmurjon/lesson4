@@ -1,4 +1,4 @@
-package parsetostring
+package functions
 
 import "strconv"
 
@@ -12,6 +12,3 @@ func EvenDigitNum(s string) int {
 	}
 	return sumj
 }
-
-
-
