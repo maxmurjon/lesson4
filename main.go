@@ -9,6 +9,6 @@ func main() {
 	var son int
 	fmt.Scanln(&son)
 	str := functions.IntToString(son)
-	fmt.Println(functions.Text(son))
+	functions.LastNumber(functions.Text(son))
 	functions.EvenDigitNum(str)
 }
